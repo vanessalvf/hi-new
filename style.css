@@ -1,0 +1,40 @@
+/* external style sheet */
+
+body {
+    background-color: #FABCD0;
+}
+
+* {
+
+}
+
+p {
+    padding: 25px;
+}
+
+/* This will select all unordered list elements*/
+ul {
+    background-color: #F77A4F
+}
+
+section {
+    display: inline-block
+    width: 50%;
+    height: 300px;
+}
+
+/* ID - uinque value given to an element*/
+#tacoword-img {
+    width: 80%;
+}
+
+nav ul li a{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+}
+/* Class is a way to group similar elements*/
+
