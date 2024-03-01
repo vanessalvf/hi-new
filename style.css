@@ -2,8 +2,14 @@
 
 body {
     background-color: #FABCD0;
+    margin: 2;
+    padding: 2;
+    font-family: 'Arial', Helvectica, sans-serf;
 }
-
+header {
+    text-align: center;
+    padding: 20px
+}
 * {
 
 }
@@ -30,11 +36,12 @@ section {
 
 nav ul li a{
     list-style: none;
-    display: inline-block;
+    display:inline-block;   
 }
 
 nav ul li a {
     color: white;
 }
+
 /* Class is a way to group similar elements*/
 
