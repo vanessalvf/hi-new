@@ -4,11 +4,21 @@
 console.log("is this thing working");
 alert("Hi, I am glad you are alive");
 
-let color = prompt('if my favorite color rhymes with mean, what color is it?');
+function getAnswer(color){
+  let color = prompt('if my favorite color rhymes with mean, what color is it?');
+  if (color = ""){
+    color = prompt("Come on, you know it!");
+  }
+}
 
 const usersName = prompt("What is your name?");
 console.log(usersName);
 
+function noNamePerson(userName){
+  if (userName ==""){
+    userName = promopt("Okay then, no name");
+  }
+}
 
 if (usersName == "aurelius"){
   document.write("Hi hubs");
@@ -20,7 +30,7 @@ if (usersName == "aurelius"){
   document.write("Thanks for stopping by");
 }
 
-document.write("Hi hi, " + usersName + "make yourself at home");
+document.write("Hi hi, " + usersName);
 
 
 
