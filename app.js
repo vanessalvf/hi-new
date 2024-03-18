@@ -1,8 +1,8 @@
 'use strict';
 
 
-console.log("is this thing working");
-alert("Hi, I am glad you are alive");
+//console.log("is this thing working");
+//alert("Hi, I am glad you are alive");
 
 function getAnswer(color){
   let color = prompt('if my favorite color rhymes with mean, what color is it?');
@@ -11,15 +11,21 @@ function getAnswer(color){
   }
 }
 
-const usersName = prompt("What is your name?");
+function whoIsThis(){
+  const usersName = prompt("What is your name?");
+  return usersName;
+}
 console.log(usersName);
 
-function noNamePerson(userName){
+
+function sayingHello(){
+  document.write("Hi hi, " + usersName);
+}
+function sayingHello(userName){
   if (userName ==""){
     userName = promopt("Okay then, no name");
   }
 }
-
 if (usersName == "aurelius"){
   document.write("Hi hubs");
 } else if (usersName == "Damaris"){
@@ -29,8 +35,6 @@ if (usersName == "aurelius"){
 } else {
   document.write("Thanks for stopping by");
 }
-
-document.write("Hi hi, " + usersName);
 
 
 
