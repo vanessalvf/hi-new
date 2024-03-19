@@ -4,23 +4,24 @@
 console.log("is this thing working");
 alert("Hi, I am glad you are alive");
 
-function getAnswer(color){
-  const color = prompt('if my favorite color rhymes with mean, what color is it?');
-  if (color == "green"){
-  if (color) == "" prompt("Come on, you know it!");
-  }
-}
 
-function whoIsThis(){
+function someName(){
   const usersName = prompt("What is your name?");
   return usersName;
 }
-console.log(usersName);
-
 
 function sayingHello(){
-  document.write("Hi hi, " + usersName);
+  document.write("Hi hi" + someName);
 }
+
+
+//console.log(usersName);
+
+function extraMessage(usersName){
+  if (usersName == ""){
+    usersName = prompt("Okay then, no name.");
+  }
+
 
 if (usersName == "aurelius"){
   document.write("Hi hubs");
@@ -29,8 +30,3 @@ if (usersName == "aurelius"){
 } else if (usersName == "Cameron"){
   document.write("I hope I'm doing this Javascript thing correct");
 }
-
-
-
-
-
